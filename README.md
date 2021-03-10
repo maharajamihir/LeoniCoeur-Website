@@ -1,1 +1,1 @@
-# Website for an online Business of a friend.
+# Website for an online business of a friend.
