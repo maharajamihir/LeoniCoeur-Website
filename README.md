@@ -1,1 +1,1 @@
-# First try of creating a website
+# Website for an online business of a friend.
