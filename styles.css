@@ -585,6 +585,7 @@
   
   .website__rights {
     color: #000;
+    margin-left: 40px;
   }
   
   @media screen and (max-width: 820px) {
@@ -603,6 +604,10 @@
     .footer__link--wrapper {
       flex-direction: column;
     }
+
+    .social__icon--link {
+      margin-bottom: 30px;
+    }
   
     .social__media--wrap {
       flex-direction: column;
@@ -610,6 +615,9 @@
   }
   
   @media screen and (max-width: 480px) {
+    .social__icon--link {
+      margin-bottom: 30px;
+    }
     .footer__link--items {
       margin: 0;
       padding: 10px;
