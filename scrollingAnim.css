@@ -10,7 +10,7 @@ body, html {
   } 
 .bg-image {
     /* Full height */
-    height: 50%;
+    height: 100%;
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -25,7 +25,7 @@ body, html {
   .img4 { background-image: url("images/IMG_0427.jpg"); }
   .img5 { background-image: url("images/IMG_0601.jpg"); }
   .img6 { background-image: url("images/IMG_0644.jpg"); }
-  
+
   /* Position text in the middle of the page/image */
   .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
@@ -42,5 +42,16 @@ body, html {
     width: 500px;
     padding: 20px;
     text-align: center;
+  }
+  @media screen and (max-width: 960px) {
+    .bg-image{
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .bg-image{
+      width: 100%;
+    }
   }
 

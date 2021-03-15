@@ -6,5 +6,3 @@ menu.addEventListener('click', function() {
   menuLinks.classList.toggle('active');
 });
 
-const mainImg = document.querySelector('#main-image');
-
