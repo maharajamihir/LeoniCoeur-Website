@@ -26,15 +26,57 @@ body, html {
   .img5 { background-image: url("images/IMG_0601.jpg"); }
   .img6 { background-image: url("images/IMG_0644.jpg"); }
 
+
+  .drop__btn {
+    font-size: 1rem;
+    background: #6e89e2;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+  }
+  
+  .drop__btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .drop__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    transition: all 0.35s;
+    border-radius: 4px;
+  }
+  
+  .drop__btn:hover {
+    color: #000;
+  }
+  
+  .drop__btn:hover:after {
+    width: 100%;
+  }
+
   /* Position text in the middle of the page/image */
   .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 30px;
     border: 10px solid #f1f1f1;
-    position: fixed; /* Stay fixed */
+    position: relative; /* Stay fixed */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
